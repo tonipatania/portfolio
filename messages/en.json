@@ -1,0 +1,90 @@
+{
+  "metadata": {
+    "siteName": "Your name",
+    "defaultTitle": "Your name — Software Developer",
+    "defaultDescription": "Software developer portfolio: featured projects, tech stack, and contact information."
+  },
+  "nav": {
+    "home": "Home",
+    "projects": "Projects",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "header": {
+    "switchLanguage": "Switch language",
+    "toggleTheme": "Toggle theme",
+    "toggleThemeToLight": "Switch to light theme",
+    "toggleThemeToDark": "Switch to dark theme"
+  },
+  "home": {
+    "hero": {
+      "kicker": "Software Developer",
+      "title": "I build software products crafted with attention to detail",
+      "subtitle": "I design and develop web applications, from backend to user interface, with a focus on code quality, performance, and user experience.",
+      "ctaProjects": "View projects",
+      "ctaContact": "Get in touch"
+    },
+    "stack": {
+      "title": "Tech Stack"
+    },
+    "projectsSection": {
+      "title": "Featured Projects",
+      "subtitle": "A selection of my most representative work.",
+      "viewAll": "View all projects"
+    }
+  },
+  "projects": {
+    "pageTitle": "Projects",
+    "pageSubtitle": "A collection of projects I've worked on, including the problem solved and the technical decisions behind each solution.",
+    "listHeading": "Project list",
+    "card": {
+      "viewProject": "View project"
+    },
+    "detail": {
+      "problem": "The problem",
+      "techChoices": "Technical choices",
+      "liveDemo": "Live demo",
+      "sourceCode": "Source code",
+      "backToProjects": "Back to projects",
+      "stackUsed": "Stack used"
+    },
+    "notFound": {
+      "title": "Project not found",
+      "description": "The project you're looking for doesn't exist or has been moved.",
+      "cta": "Back to projects"
+    }
+  },
+  "about": {
+    "pageTitle": "About",
+    "intro": "Share your journey, your approach to work, and what sets you apart as a developer.",
+    "downloadCv": "Download CV (PDF)",
+    "experienceTitle": "Experience",
+    "skillsTitle": "Skills"
+  },
+  "contact": {
+    "pageTitle": "Contact",
+    "pageSubtitle": "Have a project in mind or just want to say hello? Get in touch.",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "submit": "Send message",
+      "sending": "Sending...",
+      "success": "Message sent! I'll get back to you as soon as possible.",
+      "error": "Something went wrong. Please try again or email me directly.",
+      "namePlaceholder": "What's your name?",
+      "emailPlaceholder": "your@email.com",
+      "messagePlaceholder": "Tell me about your project or your question..."
+    },
+    "directEmail": "Or email me directly at"
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "builtWith": "Built with Next.js and Tailwind CSS."
+  },
+  "notFound": {
+    "title": "Page not found",
+    "description": "The page you're looking for doesn't exist.",
+    "cta": "Back to home"
+  }
+}

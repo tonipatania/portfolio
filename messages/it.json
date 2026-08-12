@@ -1,0 +1,90 @@
+{
+  "metadata": {
+    "siteName": "Il tuo nome",
+    "defaultTitle": "Il tuo nome — Sviluppatore Software",
+    "defaultDescription": "Portfolio di sviluppatore software: progetti selezionati, stack tecnico e contatti."
+  },
+  "nav": {
+    "home": "Home",
+    "projects": "Progetti",
+    "about": "Chi sono",
+    "contact": "Contatti"
+  },
+  "header": {
+    "switchLanguage": "Cambia lingua",
+    "toggleTheme": "Cambia tema",
+    "toggleThemeToLight": "Passa al tema chiaro",
+    "toggleThemeToDark": "Passa al tema scuro"
+  },
+  "home": {
+    "hero": {
+      "kicker": "Sviluppatore software",
+      "title": "Costruisco prodotti software curati nei dettagli",
+      "subtitle": "Mi occupo di progettazione e sviluppo di applicazioni web, dal backend all'interfaccia utente, con attenzione a qualità del codice, performance e esperienza d'uso.",
+      "ctaProjects": "Guarda i progetti",
+      "ctaContact": "Contattami"
+    },
+    "stack": {
+      "title": "Stack tecnico"
+    },
+    "projectsSection": {
+      "title": "Progetti selezionati",
+      "subtitle": "Una selezione dei lavori più rappresentativi.",
+      "viewAll": "Vedi tutti i progetti"
+    }
+  },
+  "projects": {
+    "pageTitle": "Progetti",
+    "pageSubtitle": "Una raccolta dei progetti su cui ho lavorato, con il problema risolto e le scelte tecniche dietro ogni soluzione.",
+    "listHeading": "Elenco progetti",
+    "card": {
+      "viewProject": "Vedi il progetto"
+    },
+    "detail": {
+      "problem": "Il problema",
+      "techChoices": "Scelte tecniche",
+      "liveDemo": "Demo live",
+      "sourceCode": "Codice sorgente",
+      "backToProjects": "Torna ai progetti",
+      "stackUsed": "Stack utilizzato"
+    },
+    "notFound": {
+      "title": "Progetto non trovato",
+      "description": "Il progetto che cerchi non esiste o è stato spostato.",
+      "cta": "Torna ai progetti"
+    }
+  },
+  "about": {
+    "pageTitle": "Chi sono",
+    "intro": "Racconta qui il tuo percorso, il tuo approccio al lavoro e cosa ti contraddistingue come sviluppatore.",
+    "downloadCv": "Scarica il CV (PDF)",
+    "experienceTitle": "Esperienza",
+    "skillsTitle": "Competenze"
+  },
+  "contact": {
+    "pageTitle": "Contatti",
+    "pageSubtitle": "Hai un progetto in mente o vuoi semplicemente scambiare due parole? Scrivimi.",
+    "form": {
+      "name": "Nome",
+      "email": "Email",
+      "message": "Messaggio",
+      "submit": "Invia messaggio",
+      "sending": "Invio in corso...",
+      "success": "Messaggio inviato! Ti risponderò al più presto.",
+      "error": "Qualcosa è andato storto. Riprova o scrivimi direttamente via email.",
+      "namePlaceholder": "Come ti chiami?",
+      "emailPlaceholder": "tua@email.com",
+      "messagePlaceholder": "Raccontami del tuo progetto o della tua domanda..."
+    },
+    "directEmail": "Oppure scrivimi direttamente a"
+  },
+  "footer": {
+    "rights": "Tutti i diritti riservati.",
+    "builtWith": "Costruito con Next.js e Tailwind CSS."
+  },
+  "notFound": {
+    "title": "Pagina non trovata",
+    "description": "La pagina che cerchi non esiste.",
+    "cta": "Torna alla home"
+  }
+}
