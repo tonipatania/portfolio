@@ -3,7 +3,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { ContactForm } from "@/components/ContactForm";
 import { localizedAlternates } from "@/lib/seo";
 
-const CONTACT_EMAIL = "tuaemail@esempio.com";
+const CONTACT_EMAIL = "antoninopatania7@gmail.com";
 
 export async function generateMetadata({
   params,
