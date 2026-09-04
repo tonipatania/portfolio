@@ -1,91 +1,25 @@
 import type { Project } from "@/types/project";
 
-// NOTE: contenuti placeholder — sostituisci ogni campo con i dati reali dei
-// tuoi progetti prima del deploy. Segui lo schema della skill portfolio-content:
-// problema -> scelte tecniche -> difficoltà risolta -> link.
 export const projects: Project[] = [
   {
-    slug: "progetto-uno",
-    title: { it: "[Nome progetto 1]", en: "[Project 1 name]" },
+    slug: "gamehub",
+    title: { it: "GameHub", en: "GameHub" },
     tagline: {
-      it: "[Una frase: cosa fa e per chi]",
-      en: "[One sentence: what it does and for whom]",
+      it: "Social network per videogiocatori: catalogo, recensioni, wishlist e suggerimenti di amicizia basati su un grafo social.",
+      en: "A social network for gamers: catalog, reviews, wishlist and friend suggestions powered by a graph database.",
     },
     problem: {
-      it: "[Descrivi il problema concreto che il progetto risolve, non partire dallo stack tecnico]",
-      en: "[Describe the concrete problem this project solves, don't start from the tech stack]",
+      it: "Chi gioca spesso non ha un posto unico dove tenere traccia dei giochi che vuole provare, leggere recensioni di persone con gusti simili e scoprire altri giocatori da seguire. GameHub unisce catalogo, recensioni e rete sociale in un'unica app.",
+      en: "Gamers rarely have one place to track games they want to play, read reviews from people with similar tastes, and discover other players to follow. GameHub combines a game catalog, reviews and a social layer in a single app.",
     },
     techChoices: {
-      it: "[2-3 decisioni tecniche non ovvie e perché le hai prese]",
-      en: "[2-3 non-obvious technical decisions and why you made them]",
+      it: "Il backend Spring Boot è nato come progetto di gruppo per il corso universitario di Large-Scale and Multi-Structured Databases; l'ho ripreso da solo circa due anni dopo, rifattorizzando lo strato dati e costruendo da zero il frontend Angular. Uso MongoDB per il catalogo giochi e le recensioni, dati con schema variabile e letture frequenti, e Neo4j per il grafo sociale (follow, suggerimenti di amicizia), dove le query di attraversamento tra utenti sarebbero state lente e scomode su un database relazionale o puramente documentale. Il backend vive in un repository separato (LSMSD-Project) rispetto al frontend.",
+      en: "The Spring Boot backend started as a group project for the university course on Large-Scale and Multi-Structured Databases; I picked it up again solo about two years later, refactoring the data layer and building the Angular frontend from scratch. I use MongoDB for the game catalog and reviews — variable-schema data with frequent reads — and Neo4j for the social graph (follows, friend suggestions), where multi-hop traversal queries between users would have been slow and awkward on a relational or purely document-based database. The backend lives in a separate repository (LSMSD-Project) from the frontend.",
     },
-    stack: ["Next.js", "TypeScript"],
+    stack: ["Angular", "Spring Boot", "MongoDB", "Neo4j", "TypeScript", "Tailwind CSS"],
     coverImage: "/images/projects/placeholder.svg",
     liveUrl: undefined,
-    githubUrl: undefined,
-    featured: true,
-  },
-  {
-    slug: "progetto-due",
-    title: { it: "[Nome progetto 2]", en: "[Project 2 name]" },
-    tagline: {
-      it: "[Una frase: cosa fa e per chi]",
-      en: "[One sentence: what it does and for whom]",
-    },
-    problem: {
-      it: "[Descrivi il problema concreto che il progetto risolve]",
-      en: "[Describe the concrete problem this project solves]",
-    },
-    techChoices: {
-      it: "[2-3 decisioni tecniche non ovvie e perché le hai prese]",
-      en: "[2-3 non-obvious technical decisions and why you made them]",
-    },
-    stack: ["Node.js", "PostgreSQL"],
-    coverImage: "/images/projects/placeholder.svg",
-    liveUrl: undefined,
-    githubUrl: undefined,
-    featured: true,
-  },
-  {
-    slug: "progetto-tre",
-    title: { it: "[Nome progetto 3]", en: "[Project 3 name]" },
-    tagline: {
-      it: "[Una frase: cosa fa e per chi]",
-      en: "[One sentence: what it does and for whom]",
-    },
-    problem: {
-      it: "[Descrivi il problema concreto che il progetto risolve]",
-      en: "[Describe the concrete problem this project solves]",
-    },
-    techChoices: {
-      it: "[2-3 decisioni tecniche non ovvie e perché le hai prese]",
-      en: "[2-3 non-obvious technical decisions and why you made them]",
-    },
-    stack: ["React", "Python"],
-    coverImage: "/images/projects/placeholder.svg",
-    liveUrl: undefined,
-    githubUrl: undefined,
-    featured: true,
-  },
-  {
-    slug: "progetto-quattro",
-    title: { it: "[Nome progetto 4]", en: "[Project 4 name]" },
-    tagline: {
-      it: "[Una frase: cosa fa e per chi]",
-      en: "[One sentence: what it does and for whom]",
-    },
-    problem: {
-      it: "[Descrivi il problema concreto che il progetto risolve]",
-      en: "[Describe the concrete problem this project solves]",
-    },
-    techChoices: {
-      it: "[2-3 decisioni tecniche non ovvie e perché le hai prese]",
-      en: "[2-3 non-obvious technical decisions and why you made them]",
-    },
-    stack: ["TypeScript", "Docker"],
-    coverImage: "/images/projects/placeholder.svg",
-    liveUrl: undefined,
-    githubUrl: undefined,
+    githubUrl: "https://github.com/tonipatania/gameHub-FE",
     featured: true,
   },
 ];
