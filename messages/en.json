@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "siteName": "Your name",
-    "defaultTitle": "Your name — Software Developer",
+    "siteName": "Antonino Patania",
+    "defaultTitle": "Antonino Patania — Software Developer",
     "defaultDescription": "Software developer portfolio: featured projects, tech stack, and contact information."
   },
   "nav": {
@@ -72,7 +72,7 @@
       "sending": "Sending...",
       "success": "Message sent! I'll get back to you as soon as possible.",
       "error": "Something went wrong. Please try again or email me directly.",
-      "namePlaceholder": "What's your name?",
+      "namePlaceholder": "Name Surname",
       "emailPlaceholder": "your@email.com",
       "messagePlaceholder": "Tell me about your project or your question..."
     },

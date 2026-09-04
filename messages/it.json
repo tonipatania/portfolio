@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "siteName": "Il tuo nome",
-    "defaultTitle": "Il tuo nome — Sviluppatore Software",
+    "siteName": "Antonino Patania",
+    "defaultTitle": "Antonino Patania — Sviluppatore Software",
     "defaultDescription": "Portfolio di sviluppatore software: progetti selezionati, stack tecnico e contatti."
   },
   "nav": {
@@ -72,7 +72,7 @@
       "sending": "Invio in corso...",
       "success": "Messaggio inviato! Ti risponderò al più presto.",
       "error": "Qualcosa è andato storto. Riprova o scrivimi direttamente via email.",
-      "namePlaceholder": "Come ti chiami?",
+      "namePlaceholder": "Nome Cognome",
       "emailPlaceholder": "tua@email.com",
       "messagePlaceholder": "Raccontami del tuo progetto o della tua domanda..."
     },
