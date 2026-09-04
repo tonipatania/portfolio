@@ -18,7 +18,7 @@ export const projects: Project[] = [
     },
     stack: ["Angular", "Spring Boot", "MongoDB", "Neo4j", "TypeScript", "Tailwind CSS"],
     coverImage: "/images/projects/placeholder.svg",
-    liveUrl: undefined,
+    liveUrl: "https://game-hub-fe.vercel.app/",
     githubUrl: "https://github.com/tonipatania/gameHub-FE",
     featured: true,
   },
