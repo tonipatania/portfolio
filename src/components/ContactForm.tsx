@@ -19,7 +19,8 @@ export function ContactForm() {
     }
 
     setStatus("sending");
-    const formData = new FormData(event.currentTarget);
+    const form = event.currentTarget;
+    const formData = new FormData(form);
 
     try {
       const response = await fetch(formEndpoint, {
@@ -30,7 +31,7 @@ export function ContactForm() {
 
       if (response.ok) {
         setStatus("success");
-        event.currentTarget.reset();
+        form.reset();
       } else {
         setStatus("error");
       }
